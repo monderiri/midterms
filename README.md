@@ -9,7 +9,7 @@ Please download the abstractions, preset file,  and media files and extract into
 - lcdrect.maxpat
 
 [PRESET FILE]
-- preset_final2.maxpresets
+- preset_final4.maxpresets
 
 [Media Files]
 - mediafiles.zip
