@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 84.0, 2284.0, 979.0 ],
+		"rect" : [ 34.0, 85.0, 1852.0, 921.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 2421.833355704943187, 848.0, 34.0, 22.0 ],
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 2421.833355704943187, 815.0, 59.0, 22.0 ],
+					"text" : "random 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-152",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -58,7 +82,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 607.0, 472.0, 150.0, 48.0 ],
+					"patching_rect" : [ 962.0, 1035.5, 150.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 638.566668450832367, 264.0, 224.0, 34.0 ],
@@ -93,7 +117,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 962.0, 558.0, 150.0, 34.0 ],
+					"patching_rect" : [ 2516.333355704942733, 1687.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 999.0, 682.0, 150.0, 34.0 ],
@@ -1272,7 +1296,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 485.0, 356.0, 112.0, 22.0 ],
-					"text" : "if $f1 > 1.2 then out"
+					"text" : "if $f1 > 1.1 then out"
 				}
 
 			}
@@ -2084,13 +2108,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-215",
-					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1915.833351969718933, 1522.0, 139.0, 77.0 ],
-					"text" : "14 okay common this has to be better right i mean like it's gotta be more fair and i tguess it really is."
+					"patching_rect" : [ 1915.833351969718933, 1522.0, 139.0, 22.0 ],
+					"text" : "0 0"
 				}
 
 			}
@@ -2108,6 +2131,47 @@
 			}
 , 			{
 				"box" : 				{
+					"coll_data" : 					{
+						"count" : 9,
+						"data" : [ 							{
+								"key" : 0,
+								"value" : [ 0 ]
+							}
+, 							{
+								"key" : 1,
+								"value" : [ "wait", "does", "typimg", "cause", "problems" ]
+							}
+, 							{
+								"key" : 2,
+								"value" : [ "okay", "this", "should", "cause", "a", "problem" ]
+							}
+, 							{
+								"key" : 3,
+								"value" : [ "but", "it", "does", "???" ]
+							}
+, 							{
+								"key" : 4,
+								"value" : [ "omh", "my", "gosh" ]
+							}
+, 							{
+								"key" : 5,
+								"value" : [ "who", "knew!?" ]
+							}
+, 							{
+								"key" : 6,
+								"value" : [ "who", "knew!?" ]
+							}
+, 							{
+								"key" : 7,
+								"value" : [ "who", "knew!?" ]
+							}
+, 							{
+								"key" : 8,
+								"value" : [ "hello", "my", "names", "how" ]
+							}
+ ]
+					}
+,
 					"id" : "obj-217",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2115,11 +2179,11 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1787.333351969718933, 1522.0, 89.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 0,
+						"embed" : 1,
 						"precision" : 6
 					}
 ,
-					"text" : "coll"
+					"text" : "coll @embed 1"
 				}
 
 			}
@@ -2135,7 +2199,7 @@
 					"patching_rect" : [ 1814.333351969718933, 1099.0, 164.0, 93.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 999.0, 274.666660130023956, 168.366675555706024, 93.0 ],
+					"presentation_rect" : [ 999.0, 274.666660130023956, 169.0, 93.0 ],
 					"text" : "type your message into and hit the button to send your message! \n\nif the box already has text, feel free to delete it!"
 				}
 
@@ -2551,8 +2615,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 2578.833355704943187, 638.0, 43.0, 22.0 ],
-					"text" : ">= 13."
+					"patching_rect" : [ 2578.833355704943187, 638.0, 39.0, 22.0 ],
+					"text" : ">= 15"
 				}
 
 			}
@@ -2649,7 +2713,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 2275.0, 638.0, 43.0, 22.0 ],
-					"text" : ">= 13."
+					"text" : ">= 15."
 				}
 
 			}
@@ -2745,8 +2809,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 2421.833355704943187, 638.0, 43.0, 22.0 ],
-					"text" : ">= 13."
+					"patching_rect" : [ 2421.833355704943187, 638.0, 39.0, 22.0 ],
+					"text" : ">= 15"
 				}
 
 			}
@@ -3187,7 +3251,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 432.0, 276.000008821487427, 170.0, 22.0 ],
-					"text" : "if $f1 > 0.35 then $f1 else out2"
+					"text" : "if $f1 > 0.23 then $f1 else out2"
 				}
 
 			}
@@ -3713,6 +3777,7 @@
 								"filename" : "deadpool.mp4",
 								"filekind" : "moviefile",
 								"id" : "u027002102",
+								"selection" : [ -1.0, -1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1,
@@ -3726,6 +3791,7 @@
 								"filename" : "miles.mp4",
 								"filekind" : "moviefile",
 								"id" : "u973002116",
+								"selection" : [ -1.0, -1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"vol" : 0,
@@ -3797,11 +3863,11 @@
 					"patching_rect" : [ 103.0, 125.5, 68.0, 85.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 5, "obj-52", "jit.playlist", "preset_count", 2, 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "filekind", "moviefile", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "absolutepath", "deadpool.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "filename", "deadpool.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "loop", 0, 8, "obj-52", "jit.playlist", "preset_clipstate", 1, "selection", -1.0, -1.0, 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "id", "u027002102", 7, "obj-52", "jit.playlist", "preset_content", 1, "loop", 0, 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "filekind", "moviefile", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "absolutepath", "miles.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "filename", "miles.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "loop", 0, 8, "obj-52", "jit.playlist", "preset_clipstate", 2, "selection", -1.0, -1.0, 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "id", "u973002116", 7, "obj-52", "jit.playlist", "preset_content", 2, "loop", 0, 4, "obj-52", "jit.playlist", "preset_execute", 5, "obj-60", "attrui", "attr", "op", 4, "obj-60", "attrui", "pass", 5, "obj-66", "attrui", "attr", "rate", 5, "obj-66", "attrui", "float", 1.0, 5, "<invalid>", "number", "int", 0, 5, "<invalid>", "toggle", "int", 0, 5, "<invalid>", "number", "int", 0, 5, "<invalid>", "toggle", "int", 0, 5, "<invalid>", "toggle", "int", 0, 5, "<invalid>", "toggle", "int", 0, 5, "<invalid>", "toggle", "int", 0, 5, "obj-73", "live.gain~", "float", 0.0, 5, "obj-78", "attrui", "attr", "timestretch", 5, "obj-78", "attrui", "int", 0, 5, "obj-76", "attrui", "attr", "speed", 5, "obj-76", "attrui", "float", 1.0, 5, "obj-74", "flonum", "float", 0.0, 5, "<invalid>", "attrui", "attr", "timestretch", 5, "<invalid>", "attrui", "int", 0, 5, "obj-83", "attrui", "attr", "speed", 5, "obj-83", "attrui", "float", 1.0, 5, "obj-81", "flonum", "float", 0.0, 5, "obj-45", "toggle", "int", 0, 5, "obj-51", "attrui", "attr", "brightness", 5, "obj-51", "attrui", "float", 1.0, 5, "obj-104", "attrui", "attr", "vol", 5, "obj-104", "attrui", "float", 1.0, 5, "obj-2", "attrui", "attr", "vol", 5, "obj-2", "attrui", "float", 1.0, 5, "obj-6", "attrui", "attr", "rate", 5, "obj-6", "attrui", "float", 1.0, 5, "obj-12", "attrui", "attr", "loop", 5, "obj-12", "attrui", "int", 0, 5, "obj-20", "toggle", "int", 0, 5, "obj-17", "flonum", "float", 0.0, 5, "obj-48", "toggle", "int", 0, 5, "obj-90", "toggle", "int", 0, 5, "<invalid>", "toggle", "int", 0, 5, "obj-102", "number", "int", 30, 5, "<invalid>", "number", "int", 30, 5, "obj-108", "number", "int", 160, 5, "<invalid>", "number", "int", 160, 5, "obj-113", "number", "int", 120, 5, "<invalid>", "number", "int", 120, 5, "obj-118", "flonum", "float", 0.270000010728836, 5, "obj-122", "flonum", "float", 1.0, 5, "obj-126", "flonum", "float", 0.5, 5, "<invalid>", "flonum", "float", 0.270000010728836, 5, "<invalid>", "flonum", "float", 0.5, 5, "<invalid>", "flonum", "float", 1.0, 5, "obj-201", "flonum", "float", 0.0, 5, "obj-192", "flonum", "float", 0.0, 5, "obj-184", "flonum", "float", 0.0, 5, "obj-180", "attrui", "attr", "vdevice", 5, "obj-180", "attrui", "int", 0, 5, "obj-176", "toggle", "int", 0, 5, "<invalid>", "toggle", "int", 0, 5, "obj-120", "textedit", "restoretext", "", 5, "obj-158", "umenu", "int", 0, 5, "obj-225", "number", "int", 0, 5, "<invalid>", "number", "int", 0, 5, "obj-178", "number", "int", 0, 5, "<invalid>", "gswitch2", "int", 0, 5, "obj-246", "number", "int", 5, 5, "obj-244", "number", "int", 0, 5, "obj-263", "number", "int", 0, 5, "obj-280", "toggle", "int", 0, 5, "obj-282", "number", "int", 0, 5, "obj-95", "number", "int", 0, 5, "obj-117", "number", "int", 0, 5, "obj-134", "number", "int", 0, 5, "<invalid>", "live.gain~", "float", 0.0, 5, "obj-271", "flonum", "float", 0.0, 5, "obj-324", "number", "int", 0 ]
+							"data" : [ 5, "obj-52", "jit.playlist", "preset_count", 2, 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "filekind", "moviefile", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "absolutepath", "deadpool.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "filename", "deadpool.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "loop", 0, 8, "obj-52", "jit.playlist", "preset_clipstate", 1, "selection", -1.0, -1.0, 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "id", "u027002102", 7, "obj-52", "jit.playlist", "preset_content", 1, "loop", 0, 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "filekind", "moviefile", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "absolutepath", "miles.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "filename", "miles.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "loop", 0, 8, "obj-52", "jit.playlist", "preset_clipstate", 2, "selection", -1.0, -1.0, 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "id", "u973002116", 7, "obj-52", "jit.playlist", "preset_content", 2, "loop", 0, 4, "obj-52", "jit.playlist", "preset_execute", 5, "obj-60", "attrui", "attr", "op", 4, "obj-60", "attrui", "pass", 5, "obj-66", "attrui", "attr", "rate", 5, "obj-66", "attrui", "float", 1.0, 5, "obj-45", "toggle", "int", 0, 5, "obj-51", "attrui", "attr", "brightness", 5, "obj-51", "attrui", "float", 1.0, 5, "obj-104", "attrui", "attr", "vol", 5, "obj-104", "attrui", "float", 1.0, 5, "obj-2", "attrui", "attr", "vol", 5, "obj-2", "attrui", "float", 1.0, 5, "obj-6", "attrui", "attr", "rate", 5, "obj-6", "attrui", "float", 1.0, 5, "obj-12", "attrui", "attr", "loop", 5, "obj-12", "attrui", "int", 0, 5, "obj-20", "toggle", "int", 0, 5, "obj-17", "flonum", "float", 0.026885986328125, 5, "obj-48", "toggle", "int", 0, 5, "obj-90", "toggle", "int", 0, 5, "obj-102", "number", "int", 30, 5, "obj-108", "number", "int", 160, 5, "obj-113", "number", "int", 120, 5, "obj-118", "flonum", "float", 0.270000010728836, 5, "obj-122", "flonum", "float", 1.0, 5, "obj-126", "flonum", "float", 0.5, 5, "obj-201", "flonum", "float", 0.0, 5, "obj-192", "flonum", "float", 0.0, 5, "obj-184", "flonum", "float", 0.0, 5, "obj-180", "attrui", "attr", "vdevice", 5, "obj-180", "attrui", "int", 1, 5, "obj-176", "toggle", "int", 0, 5, "obj-120", "textedit", "restoretext", "", 5, "obj-158", "umenu", "int", 0, 5, "obj-225", "number", "int", 0, 5, "obj-178", "number", "int", 0, 5, "obj-246", "number", "int", 5, 5, "obj-244", "number", "int", 0, 5, "obj-263", "number", "int", 0, 5, "obj-280", "toggle", "int", 0, 5, "obj-282", "number", "int", 0, 5, "obj-95", "number", "int", 0, 5, "obj-117", "number", "int", 0, 5, "obj-134", "number", "int", 0, 5, "obj-271", "flonum", "float", 0.0, 5, "obj-324", "number", "int", 0, 5, "obj-78", "playlist~", "preset_count", 1, 7, "obj-78", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-78", "playlist~", "preset_clipstate", 1, "absolutepath", "hearbeat.mp3", 7, "obj-78", "playlist~", "preset_clipstate", 1, "filename", "hearbeat.mp3", 7, "obj-78", "playlist~", "preset_clipstate", 1, "loop", 0, 8, "obj-78", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-78", "playlist~", "preset_clipstate", 1, "id", "u469001108", 7, "obj-78", "playlist~", "preset_content", 1, "loop", 0, 4, "obj-78", "playlist~", "preset_execute", 5, "obj-76", "attrui", "attr", "speed", 5, "obj-76", "attrui", "float", 1.0, 5, "obj-74", "attrui", "attr", "speed", 5, "obj-74", "attrui", "float", 1.0, 5, "obj-73", "attrui", "attr", "loop", 5, "obj-73", "attrui", "int", 0, 5, "obj-47", "live.gain~", "float", 0.0 ]
 						}
 , 						{
 							"number" : 2,
-							"data" : [ 5, "obj-52", "jit.playlist", "preset_count", 2, 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "filekind", "moviefile", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "absolutepath", "deadpool.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "filename", "deadpool.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "loop", 0, 8, "obj-52", "jit.playlist", "preset_clipstate", 1, "selection", -1.0, -1.0, 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "id", "u027002102", 7, "obj-52", "jit.playlist", "preset_content", 1, "loop", 0, 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "filekind", "moviefile", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "absolutepath", "miles.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "filename", "miles.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "loop", 0, 8, "obj-52", "jit.playlist", "preset_clipstate", 2, "selection", -1.0, -1.0, 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "id", "u973002116", 7, "obj-52", "jit.playlist", "preset_content", 2, "loop", 0, 4, "obj-52", "jit.playlist", "preset_execute", 5, "obj-60", "attrui", "attr", "op", 4, "obj-60", "attrui", "pass", 5, "obj-66", "attrui", "attr", "rate", 5, "obj-66", "attrui", "float", 1.0, 5, "obj-45", "toggle", "int", 0, 5, "obj-51", "attrui", "attr", "brightness", 5, "obj-51", "attrui", "float", 1.0, 5, "obj-104", "attrui", "attr", "vol", 5, "obj-104", "attrui", "float", 1.0, 5, "obj-2", "attrui", "attr", "vol", 5, "obj-2", "attrui", "float", 0.0, 5, "obj-6", "attrui", "attr", "rate", 5, "obj-6", "attrui", "float", 1.0, 5, "obj-12", "attrui", "attr", "loop", 5, "obj-12", "attrui", "int", 0, 5, "obj-20", "toggle", "int", 1, 5, "obj-17", "flonum", "float", 0.009857177734375, 5, "obj-48", "toggle", "int", 0, 5, "obj-90", "toggle", "int", 0, 5, "obj-102", "number", "int", 30, 5, "obj-108", "number", "int", 160, 5, "obj-113", "number", "int", 120, 5, "obj-118", "flonum", "float", 0.270000010728836, 5, "obj-122", "flonum", "float", 1.0, 5, "obj-126", "flonum", "float", 0.5, 5, "obj-201", "flonum", "float", 0.0, 5, "obj-192", "flonum", "float", 0.0, 5, "obj-184", "flonum", "float", 0.0, 5, "obj-180", "attrui", "attr", "vdevice", 5, "obj-180", "attrui", "int", 0, 5, "obj-176", "toggle", "int", 0, 5, "obj-120", "textedit", "restoretext", "", 5, "obj-158", "umenu", "int", 0, 5, "obj-225", "number", "int", 0, 5, "obj-178", "number", "int", 0, 5, "obj-246", "number", "int", 5, 5, "obj-244", "number", "int", 0, 5, "obj-263", "number", "int", 0, 5, "obj-280", "toggle", "int", 0, 5, "obj-282", "number", "int", 0, 5, "obj-95", "number", "int", 0, 5, "obj-117", "number", "int", 0, 5, "obj-134", "number", "int", 0, 5, "obj-271", "flonum", "float", 0.0, 5, "obj-324", "number", "int", 0, 5, "obj-78", "playlist~", "preset_count", 1, 7, "obj-78", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-78", "playlist~", "preset_clipstate", 1, "absolutepath", "hearbeat.mp3", 7, "obj-78", "playlist~", "preset_clipstate", 1, "filename", "hearbeat.mp3", 7, "obj-78", "playlist~", "preset_clipstate", 1, "loop", 0, 8, "obj-78", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-78", "playlist~", "preset_clipstate", 1, "id", "u469001108", 7, "obj-78", "playlist~", "preset_content", 1, "loop", 0, 4, "obj-78", "playlist~", "preset_execute", 5, "obj-76", "attrui", "attr", "speed", 5, "obj-76", "attrui", "float", 1.0, 5, "obj-74", "attrui", "attr", "speed", 5, "obj-74", "attrui", "float", 1.0, 5, "obj-73", "attrui", "attr", "loop", 5, "obj-73", "attrui", "int", 0, 5, "obj-47", "live.gain~", "float", 0.0 ]
+							"data" : [ 5, "obj-52", "jit.playlist", "preset_count", 2, 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "filekind", "moviefile", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "absolutepath", "deadpool.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "filename", "deadpool.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "loop", 0, 8, "obj-52", "jit.playlist", "preset_clipstate", 1, "selection", -1.0, -1.0, 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "id", "u027002102", 7, "obj-52", "jit.playlist", "preset_content", 1, "loop", 0, 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "filekind", "moviefile", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "absolutepath", "miles.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "filename", "miles.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "loop", 0, 8, "obj-52", "jit.playlist", "preset_clipstate", 2, "selection", -1.0, -1.0, 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "id", "u973002116", 7, "obj-52", "jit.playlist", "preset_content", 2, "loop", 0, 4, "obj-52", "jit.playlist", "preset_execute", 5, "obj-60", "attrui", "attr", "op", 4, "obj-60", "attrui", "pass", 5, "obj-66", "attrui", "attr", "rate", 5, "obj-66", "attrui", "float", 1.0, 5, "obj-45", "toggle", "int", 0, 5, "obj-51", "attrui", "attr", "brightness", 5, "obj-51", "attrui", "float", 1.0, 5, "obj-104", "attrui", "attr", "vol", 5, "obj-104", "attrui", "float", 1.0, 5, "obj-2", "attrui", "attr", "vol", 5, "obj-2", "attrui", "float", 0.0, 5, "obj-6", "attrui", "attr", "rate", 5, "obj-6", "attrui", "float", 1.0, 5, "obj-12", "attrui", "attr", "loop", 5, "obj-12", "attrui", "int", 0, 5, "obj-20", "toggle", "int", 1, 5, "obj-17", "flonum", "float", 0.026885986328125, 5, "obj-48", "toggle", "int", 0, 5, "obj-90", "toggle", "int", 0, 5, "obj-102", "number", "int", 30, 5, "obj-108", "number", "int", 160, 5, "obj-113", "number", "int", 120, 5, "obj-118", "flonum", "float", 0.270000010728836, 5, "obj-122", "flonum", "float", 1.0, 5, "obj-126", "flonum", "float", 0.5, 5, "obj-201", "flonum", "float", 0.0, 5, "obj-192", "flonum", "float", 0.0, 5, "obj-184", "flonum", "float", 0.0, 5, "obj-180", "attrui", "attr", "vdevice", 5, "obj-180", "attrui", "int", 1, 5, "obj-176", "toggle", "int", 0, 5, "obj-120", "textedit", "restoretext", "", 5, "obj-158", "umenu", "int", 0, 5, "obj-225", "number", "int", 0, 5, "obj-178", "number", "int", 0, 5, "obj-246", "number", "int", 5, 5, "obj-244", "number", "int", 0, 5, "obj-263", "number", "int", 0, 5, "obj-280", "toggle", "int", 0, 5, "obj-282", "number", "int", 0, 5, "obj-95", "number", "int", 0, 5, "obj-117", "number", "int", 0, 5, "obj-134", "number", "int", 0, 5, "obj-271", "flonum", "float", 0.62542724609375, 5, "obj-324", "number", "int", 0, 5, "obj-78", "playlist~", "preset_count", 1, 7, "obj-78", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-78", "playlist~", "preset_clipstate", 1, "absolutepath", "hearbeat.mp3", 7, "obj-78", "playlist~", "preset_clipstate", 1, "filename", "hearbeat.mp3", 7, "obj-78", "playlist~", "preset_clipstate", 1, "loop", 0, 8, "obj-78", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-78", "playlist~", "preset_clipstate", 1, "id", "u469001108", 7, "obj-78", "playlist~", "preset_content", 1, "loop", 0, 4, "obj-78", "playlist~", "preset_execute", 5, "obj-76", "attrui", "attr", "speed", 5, "obj-76", "attrui", "float", 1.0, 5, "obj-74", "attrui", "attr", "speed", 5, "obj-74", "attrui", "float", 1.0, 5, "obj-73", "attrui", "attr", "loop", 5, "obj-73", "attrui", "int", 0, 5, "obj-47", "live.gain~", "float", 0.0 ]
 						}
 , 						{
 							"number" : 3,
@@ -3817,11 +3883,11 @@
 						}
 , 						{
 							"number" : 9,
-							"data" : [ 5, "obj-52", "jit.playlist", "preset_count", 2, 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "filekind", "moviefile", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "absolutepath", "deadpool.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "filename", "deadpool.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "loop", 0, 8, "obj-52", "jit.playlist", "preset_clipstate", 1, "selection", -1.0, -1.0, 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "id", "u027002102", 7, "obj-52", "jit.playlist", "preset_content", 1, "loop", 0, 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "filekind", "moviefile", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "absolutepath", "miles.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "filename", "miles.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "loop", 0, 8, "obj-52", "jit.playlist", "preset_clipstate", 2, "selection", -1.0, -1.0, 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "id", "u973002116", 7, "obj-52", "jit.playlist", "preset_content", 2, "loop", 0, 4, "obj-52", "jit.playlist", "preset_execute", 5, "obj-60", "attrui", "attr", "op", 4, "obj-60", "attrui", "+", 5, "obj-66", "attrui", "attr", "rate", 5, "obj-66", "attrui", "float", 0.8, 5, "obj-45", "toggle", "int", 1, 5, "obj-51", "attrui", "attr", "brightness", 5, "obj-51", "attrui", "float", 1.0, 5, "obj-104", "attrui", "attr", "vol", 5, "obj-104", "attrui", "float", 0.25, 5, "obj-2", "attrui", "attr", "vol", 5, "obj-2", "attrui", "float", 0.200000002980232, 5, "obj-6", "attrui", "attr", "rate", 5, "obj-6", "attrui", "float", 0.949999988079071, 5, "obj-12", "attrui", "attr", "loop", 5, "obj-12", "attrui", "int", 0, 5, "obj-20", "toggle", "int", 1, 5, "obj-17", "flonum", "float", 0.007232666015625, 5, "obj-48", "toggle", "int", 1, 5, "obj-90", "toggle", "int", 1, 5, "obj-102", "number", "int", 30, 5, "obj-108", "number", "int", 160, 5, "obj-113", "number", "int", 120, 5, "obj-118", "flonum", "float", 0.5, 5, "obj-122", "flonum", "float", 1.0, 5, "obj-126", "flonum", "float", 0.629999995231628, 5, "obj-201", "flonum", "float", 0.0, 5, "obj-192", "flonum", "float", 0.0, 5, "obj-184", "flonum", "float", 0.0, 5, "obj-180", "attrui", "attr", "vdevice", 5, "obj-180", "attrui", "int", 1, 5, "obj-176", "toggle", "int", 1, 5, "obj-120", "textedit", "restoretext", "", 5, "obj-158", "umenu", "int", 0, 5, "obj-225", "number", "int", 0, 5, "obj-178", "number", "int", 0, 5, "obj-246", "number", "int", 5, 5, "obj-244", "number", "int", 0, 5, "obj-263", "number", "int", 2, 5, "obj-280", "toggle", "int", 1, 5, "obj-282", "number", "int", 0, 5, "obj-95", "number", "int", 66, 5, "obj-117", "number", "int", 233, 5, "obj-134", "number", "int", 255, 5, "obj-271", "flonum", "float", 0.0, 5, "obj-324", "number", "int", 0, 5, "obj-78", "playlist~", "preset_count", 1, 7, "obj-78", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-78", "playlist~", "preset_clipstate", 1, "absolutepath", "hearbeat.mp3", 7, "obj-78", "playlist~", "preset_clipstate", 1, "filename", "hearbeat.mp3", 7, "obj-78", "playlist~", "preset_clipstate", 1, "loop", 1, 8, "obj-78", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-78", "playlist~", "preset_clipstate", 1, "id", "u469001108", 7, "obj-78", "playlist~", "preset_content", 1, "loop", 1, 4, "obj-78", "playlist~", "preset_execute", 5, "obj-76", "attrui", "attr", "timestretch", 5, "obj-76", "attrui", "int", 1, 5, "obj-74", "attrui", "attr", "speed", 5, "obj-74", "attrui", "int", 1, 5, "obj-73", "attrui", "attr", "loop", 5, "obj-73", "attrui", "int", 1, 5, "obj-47", "live.gain~", "float", -6.789178848266602 ]
+							"data" : [ 5, "obj-52", "jit.playlist", "preset_count", 2, 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "filekind", "moviefile", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "absolutepath", "deadpool.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "filename", "deadpool.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "loop", 1, 8, "obj-52", "jit.playlist", "preset_clipstate", 1, "selection", -1.0, -1.0, 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "id", "u027002102", 7, "obj-52", "jit.playlist", "preset_content", 1, "loop", 1, 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "filekind", "moviefile", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "absolutepath", "miles.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "filename", "miles.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "loop", 1, 8, "obj-52", "jit.playlist", "preset_clipstate", 2, "selection", -1.0, -1.0, 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "id", "u973002116", 7, "obj-52", "jit.playlist", "preset_content", 2, "loop", 1, 4, "obj-52", "jit.playlist", "preset_execute", 5, "obj-60", "attrui", "attr", "op", 4, "obj-60", "attrui", "+", 5, "obj-66", "attrui", "attr", "rate", 5, "obj-66", "attrui", "float", 0.8, 5, "obj-45", "toggle", "int", 1, 5, "obj-51", "attrui", "attr", "brightness", 5, "obj-51", "attrui", "float", 1.0, 5, "obj-104", "attrui", "attr", "vol", 5, "obj-104", "attrui", "float", 0.25, 5, "obj-2", "attrui", "attr", "vol", 5, "obj-2", "attrui", "float", 0.200000002980232, 5, "obj-6", "attrui", "attr", "rate", 5, "obj-6", "attrui", "float", 0.949999988079071, 5, "obj-12", "attrui", "attr", "loop", 5, "obj-12", "attrui", "int", 1, 5, "obj-20", "toggle", "int", 1, 5, "obj-17", "flonum", "float", 0.0069580078125, 5, "obj-48", "toggle", "int", 1, 5, "obj-90", "toggle", "int", 1, 5, "obj-102", "number", "int", 30, 5, "obj-108", "number", "int", 160, 5, "obj-113", "number", "int", 120, 5, "obj-118", "flonum", "float", 0.5, 5, "obj-122", "flonum", "float", 1.0, 5, "obj-126", "flonum", "float", 0.629999995231628, 5, "obj-201", "flonum", "float", 0.0, 5, "obj-192", "flonum", "float", 0.0, 5, "obj-184", "flonum", "float", 0.0, 5, "obj-180", "attrui", "attr", "vdevice", 5, "obj-180", "attrui", "int", 1, 5, "obj-176", "toggle", "int", 1, 5, "obj-120", "textedit", "restoretext", "", 5, "obj-158", "umenu", "int", 0, 5, "obj-225", "number", "int", 0, 5, "obj-178", "number", "int", 0, 5, "obj-246", "number", "int", 5, 5, "obj-244", "number", "int", 0, 5, "obj-263", "number", "int", 2, 5, "obj-280", "toggle", "int", 1, 5, "obj-282", "number", "int", 0, 5, "obj-95", "number", "int", 66, 5, "obj-117", "number", "int", 233, 5, "obj-134", "number", "int", 255, 5, "obj-271", "flonum", "float", 0.0, 5, "obj-324", "number", "int", 0, 5, "obj-78", "playlist~", "preset_count", 1, 7, "obj-78", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-78", "playlist~", "preset_clipstate", 1, "absolutepath", "hearbeat.mp3", 7, "obj-78", "playlist~", "preset_clipstate", 1, "filename", "hearbeat.mp3", 7, "obj-78", "playlist~", "preset_clipstate", 1, "loop", 1, 8, "obj-78", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-78", "playlist~", "preset_clipstate", 1, "id", "u469001108", 7, "obj-78", "playlist~", "preset_content", 1, "loop", 1, 4, "obj-78", "playlist~", "preset_execute", 5, "obj-76", "attrui", "attr", "timestretch", 5, "obj-76", "attrui", "int", 1, 5, "obj-74", "attrui", "attr", "speed", 5, "obj-74", "attrui", "int", 1, 5, "obj-73", "attrui", "attr", "loop", 5, "obj-73", "attrui", "int", 1, 5, "obj-47", "live.gain~", "float", -6.789178848266602 ]
 						}
 , 						{
 							"number" : 10,
-							"data" : [ 5, "obj-52", "jit.playlist", "preset_count", 2, 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "filekind", "moviefile", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "absolutepath", "deadpool.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "filename", "deadpool.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "loop", 0, 8, "obj-52", "jit.playlist", "preset_clipstate", 1, "selection", -1.0, -1.0, 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "id", "u027002102", 7, "obj-52", "jit.playlist", "preset_content", 1, "loop", 0, 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "filekind", "moviefile", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "absolutepath", "miles.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "filename", "miles.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "loop", 0, 8, "obj-52", "jit.playlist", "preset_clipstate", 2, "selection", -1.0, -1.0, 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "id", "u973002116", 7, "obj-52", "jit.playlist", "preset_content", 2, "loop", 0, 4, "obj-52", "jit.playlist", "preset_execute", 5, "obj-60", "attrui", "attr", "op", 4, "obj-60", "attrui", "+", 5, "obj-66", "attrui", "attr", "rate", 5, "obj-66", "attrui", "float", 0.8, 5, "obj-45", "toggle", "int", 1, 5, "obj-51", "attrui", "attr", "brightness", 5, "obj-51", "attrui", "float", 1.0, 5, "obj-104", "attrui", "attr", "vol", 5, "obj-104", "attrui", "float", 0.6, 5, "obj-2", "attrui", "attr", "vol", 5, "obj-2", "attrui", "float", 0.200000002980232, 5, "obj-6", "attrui", "attr", "rate", 5, "obj-6", "attrui", "float", 0.949999988079071, 5, "obj-12", "attrui", "attr", "loop", 5, "obj-12", "attrui", "int", 0, 5, "obj-20", "toggle", "int", 1, 5, "obj-17", "flonum", "float", 0.313995361328125, 5, "obj-48", "toggle", "int", 1, 5, "obj-90", "toggle", "int", 1, 5, "obj-102", "number", "int", 30, 5, "obj-108", "number", "int", 160, 5, "obj-113", "number", "int", 120, 5, "obj-118", "flonum", "float", 0.5, 5, "obj-122", "flonum", "float", 1.0, 5, "obj-126", "flonum", "float", 0.629999995231628, 5, "obj-201", "flonum", "float", 0.0, 5, "obj-192", "flonum", "float", 0.0, 5, "obj-184", "flonum", "float", 0.0, 5, "obj-180", "attrui", "attr", "vdevice", 5, "obj-180", "attrui", "int", 1, 5, "obj-176", "toggle", "int", 1, 5, "obj-120", "textedit", "restoretext", "", 5, "obj-158", "umenu", "int", 0, 5, "obj-225", "number", "int", 0, 5, "obj-178", "number", "int", 0, 5, "obj-246", "number", "int", 5, 5, "obj-244", "number", "int", 0, 5, "obj-263", "number", "int", 2, 5, "obj-280", "toggle", "int", 1, 5, "obj-282", "number", "int", 0, 5, "obj-95", "number", "int", 66, 5, "obj-117", "number", "int", 233, 5, "obj-134", "number", "int", 255, 5, "obj-271", "flonum", "float", 0.0, 5, "obj-324", "number", "int", 0, 5, "obj-78", "playlist~", "preset_count", 1, 7, "obj-78", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-78", "playlist~", "preset_clipstate", 1, "absolutepath", "hearbeat.mp3", 7, "obj-78", "playlist~", "preset_clipstate", 1, "filename", "hearbeat.mp3", 7, "obj-78", "playlist~", "preset_clipstate", 1, "loop", 1, 8, "obj-78", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-78", "playlist~", "preset_clipstate", 1, "id", "u469001108", 7, "obj-78", "playlist~", "preset_content", 1, "loop", 1, 4, "obj-78", "playlist~", "preset_execute", 5, "obj-76", "attrui", "attr", "timestretch", 5, "obj-76", "attrui", "int", 1, 5, "obj-74", "attrui", "attr", "speed", 5, "obj-74", "attrui", "int", 1, 5, "obj-73", "attrui", "attr", "loop", 5, "obj-73", "attrui", "int", 1, 5, "obj-47", "live.gain~", "float", -6.789178848266602 ]
+							"data" : [ 5, "obj-52", "jit.playlist", "preset_count", 2, 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "filekind", "moviefile", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "absolutepath", "deadpool.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "filename", "deadpool.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "loop", 1, 8, "obj-52", "jit.playlist", "preset_clipstate", 1, "selection", -1.0, -1.0, 7, "obj-52", "jit.playlist", "preset_clipstate", 1, "id", "u027002102", 7, "obj-52", "jit.playlist", "preset_content", 1, "loop", 1, 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "filekind", "moviefile", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "absolutepath", "miles.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "filename", "miles.mp4", 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "loop", 1, 8, "obj-52", "jit.playlist", "preset_clipstate", 2, "selection", -1.0, -1.0, 7, "obj-52", "jit.playlist", "preset_clipstate", 2, "id", "u973002116", 7, "obj-52", "jit.playlist", "preset_content", 2, "loop", 1, 4, "obj-52", "jit.playlist", "preset_execute", 5, "obj-60", "attrui", "attr", "op", 4, "obj-60", "attrui", "+", 5, "obj-66", "attrui", "attr", "rate", 5, "obj-66", "attrui", "float", 0.8, 5, "obj-45", "toggle", "int", 1, 5, "obj-51", "attrui", "attr", "brightness", 5, "obj-51", "attrui", "float", 1.0, 5, "obj-104", "attrui", "attr", "vol", 5, "obj-104", "attrui", "float", 0.6, 5, "obj-2", "attrui", "attr", "vol", 5, "obj-2", "attrui", "float", 0.200000002980232, 5, "obj-6", "attrui", "attr", "rate", 5, "obj-6", "attrui", "float", 0.949999988079071, 5, "obj-12", "attrui", "attr", "loop", 5, "obj-12", "attrui", "int", 1, 5, "obj-20", "toggle", "int", 1, 5, "obj-17", "flonum", "float", 0.006805419921875, 5, "obj-48", "toggle", "int", 1, 5, "obj-90", "toggle", "int", 1, 5, "obj-102", "number", "int", 30, 5, "obj-108", "number", "int", 160, 5, "obj-113", "number", "int", 120, 5, "obj-118", "flonum", "float", 0.5, 5, "obj-122", "flonum", "float", 1.0, 5, "obj-126", "flonum", "float", 0.629999995231628, 5, "obj-201", "flonum", "float", 0.0, 5, "obj-192", "flonum", "float", 0.0, 5, "obj-184", "flonum", "float", 0.0, 5, "obj-180", "attrui", "attr", "vdevice", 5, "obj-180", "attrui", "int", 1, 5, "obj-176", "toggle", "int", 1, 5, "obj-120", "textedit", "restoretext", "", 5, "obj-158", "umenu", "int", 0, 5, "obj-225", "number", "int", 0, 5, "obj-178", "number", "int", 0, 5, "obj-246", "number", "int", 5, 5, "obj-244", "number", "int", 0, 5, "obj-263", "number", "int", 2, 5, "obj-280", "toggle", "int", 1, 5, "obj-282", "number", "int", 0, 5, "obj-95", "number", "int", 66, 5, "obj-117", "number", "int", 233, 5, "obj-134", "number", "int", 255, 5, "obj-271", "flonum", "float", 0.0, 5, "obj-324", "number", "int", 0, 5, "obj-78", "playlist~", "preset_count", 1, 7, "obj-78", "playlist~", "preset_clipstate", 1, "filekind", "audiofile", 7, "obj-78", "playlist~", "preset_clipstate", 1, "absolutepath", "hearbeat.mp3", 7, "obj-78", "playlist~", "preset_clipstate", 1, "filename", "hearbeat.mp3", 7, "obj-78", "playlist~", "preset_clipstate", 1, "loop", 1, 8, "obj-78", "playlist~", "preset_clipstate", 1, "selection", 0.0, 1.0, 7, "obj-78", "playlist~", "preset_clipstate", 1, "id", "u469001108", 7, "obj-78", "playlist~", "preset_content", 1, "loop", 1, 4, "obj-78", "playlist~", "preset_execute", 5, "obj-76", "attrui", "attr", "timestretch", 5, "obj-76", "attrui", "int", 1, 5, "obj-74", "attrui", "attr", "speed", 5, "obj-74", "attrui", "int", 1, 5, "obj-73", "attrui", "attr", "loop", 5, "obj-73", "attrui", "int", 1, 5, "obj-47", "live.gain~", "float", -6.789178848266602 ]
 						}
 , 						{
 							"number" : 13,
@@ -4503,6 +4569,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-267", 0 ],
 					"source" : [ "obj-173", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"source" : [ "obj-174", 0 ]
 				}
 
 			}
@@ -5318,6 +5391,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-273", 0 ],
+					"source" : [ "obj-272", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-123", 0 ],
 					"midpoints" : [ 3047.166688084602356, 277.000000596046448, 2981.166688084602356, 277.000000596046448 ],
 					"source" : [ "obj-274", 0 ]
@@ -5690,9 +5770,30 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-262", 0 ],
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-267", 0 ],
+					"source" : [ "obj-39", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-106", 0 ],
 					"midpoints" : [ 3536.5, 953.999997973442078, 3270.0, 953.999997973442078 ],
 					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"source" : [ "obj-44", 0 ]
 				}
 
 			}
